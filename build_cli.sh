@@ -5,7 +5,7 @@ set -x
 
 cd xdelta/xdelta3
 git clean -fX
-libtoolize
+glibtoolize
 aclocal
 autoconf
 autoheader
